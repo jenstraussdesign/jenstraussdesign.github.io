@@ -18,6 +18,7 @@ nav ul{
 }
 nav ul li {
   display: inline-block;
+  margin: 0px 10px 0px 10px
 }
 
 #information{
@@ -35,10 +36,36 @@ nav ul li {
 }
 #about{
   border: solid 1px green;
-  height: 300px;
   width: 40%;
+  height: 300px;
   float: left;
   margin: calc(5% - 1px);
+}
 
-
+#projects{
+  border: solid 1px red;
+  width: 80%;
+  min-height: 400px;
+  margin: 0 auto;
+}
+#packaging{
+  border: solid 1px green;
+  width: 20%;
+  height: 300px;
+  float: left;
+  margin: calc(5% - 1px);
+}
+#print{
+  border: solid 1px green;
+  width: 20%;
+  height: 300px;
+  float: left;
+  margin: calc(5% - 1px);
+}
+#digital{
+    border: solid 1px green;
+    height: 300px;
+    width: 20%;
+    float: left;
+    margin: calc(5% - 1px);
 }
