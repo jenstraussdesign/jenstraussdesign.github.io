@@ -1,14 +1,18 @@
+@import url(https://fonts.googleapis.com/css?family=Khula);
 #logo{
-  border: solid 1px black;
+  /* border: solid 1px black; */
   width: 300px;
-  height: 100px;
+  height:275px;
   margin: 0 auto;
 }
+
 nav{
-  border: solid 1px black;
-  width: 300px;
+  /* border: solid 1px black; */
+  width: 400px;
   text-align: center;
   margin: 0 auto;
+  font-family: "Khula";
+  color: #6CAC44;
 
 }
 
@@ -16,30 +20,39 @@ nav ul{
   list-style-type: none;
   padding-left:0;
 }
+
 nav ul li {
   display: inline-block;
   margin: 0px 10px 0px 10px
 }
 
 #information{
-  border: solid 1px red;
+  /*border: solid 1px red;*/
   width: 80%;
   min-height: 400px;
   margin: 0 auto;
 }
+
 #personal_photo{
-  border: solid 1px green;
-  width: 40%;
+  /* border: solid 1px green;*/
+  width: 300;
   height: 300px;
   float: left;
-  margin: calc(5% - 1px);
+  margin: 5%;
 }
+
 #about{
-  border: solid 1px green;
+  /* border: solid 1px green;*/
   width: 40%;
   height: 300px;
   float: left;
-  margin: calc(5% - 1px);
+  margin: 5%;
+  font-family: "Khula";
+  font-size: 90%
+}
+
+h2 {
+  color: #6CAC44;
 }
 
 #projects{
@@ -48,16 +61,46 @@ nav ul li {
   min-height: 400px;
   margin: 0 auto;
 }
+
 #packaging{
   border: solid 1px green;
-  width: 20%;
+  width: 22%;
   height: 300px;
   float: left;
   margin: calc(5% - 1px);
 }
+
 #print{
   border: solid 1px green;
-  width: 20%;
+  width: 22%;
+  height: 300px;
+  float: left;
+  margin: calc(5% - 1px);
+}
+
+#digital{
+    border: solid 1px green;
+    height: 300px;
+    width: 22%;
+    float: left;
+    margin: calc(5% - 1px);
+}
+#companys{
+  border: solid 1px red;
+  width: 80%;
+  min-height: 400px;
+  margin: 0 auto;
+}
+#dyson{
+  border: solid 1px green;
+  width: 22%;
+  height: 300px;
+  float: left;
+  margin: calc(5% - 1px);
+}
+#oxo{
+  border: solid 1px green;
+  width: 22%;
   height: 300px;
   float: left;
   margin: calc(5% - 1px);
@@ -65,7 +108,7 @@ nav ul li {
 #digital{
     border: solid 1px green;
     height: 300px;
-    width: 20%;
+    width: 22%;
     float: left;
     margin: calc(5% - 1px);
 }
