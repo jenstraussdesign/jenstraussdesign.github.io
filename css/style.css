@@ -1,4 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Khula);
+
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
 #logo{
   /* border: solid 1px black; */
   width: 300px;
@@ -13,7 +18,6 @@ nav{
   margin: 0 auto;
   font-family: "Khula";
   color: #6CAC44;
-
 }
 
 nav ul{
@@ -24,6 +28,12 @@ nav ul{
 nav ul li {
   display: inline-block;
   margin: 0px 10px 0px 10px
+}
+
+a {
+  text-decoration: none;
+  color: #6CAC44;
+
 }
 
 #information{
@@ -56,59 +66,111 @@ h2 {
 }
 
 #projects{
-  border: solid 1px red;
   width: 80%;
   min-height: 400px;
   margin: 0 auto;
+  background-color: #D3D3D3;
 }
 
 #packaging{
-  border: solid 1px green;
   width: 22%;
   height: 300px;
   float: left;
-  margin: calc(5% - 1px);
+  margin: 5%;
 }
 
 #print{
-  border: solid 1px green;
   width: 22%;
   height: 300px;
   float: left;
-  margin: calc(5% - 1px);
+  margin: 5%;
 }
 
 #digital{
-    border: solid 1px green;
     height: 300px;
     width: 22%;
     float: left;
-    margin: calc(5% - 1px);
+    margin: 5%;
 }
 #companys{
-  border: solid 1px red;
   width: 80%;
   min-height: 400px;
   margin: 0 auto;
+  background-color: #D3D3D3;
+
 }
 #dyson{
-  border: solid 1px green;
   width: 22%;
   height: 300px;
   float: left;
-  margin: calc(5% - 1px);
+  margin: 5%;
 }
 #oxo{
-  border: solid 1px green;
   width: 22%;
   height: 300px;
   float: left;
-  margin: calc(5% - 1px);
+  margin: 5%;
 }
 #digital{
-    border: solid 1px green;
     height: 300px;
     width: 22%;
     float: left;
-    margin: calc(5% - 1px);
+    margin: 5%;
+}
+ul {
+	padding:0;
+	list-style: none;
+}
+
+.footer-social-icons {
+	width: 350px;
+	display:block;
+  margin: 0 auto;
+}
+
+.social-icon {
+	color: #fff;
+}
+
+ul.social-icons {
+	margin-top: 10px;
+
+}
+
+.social-icons li {
+	vertical-align: top;
+	display: inline;
+}
+
+.social-icons a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.fa-facebook {
+	padding:10px 14px 7px 14px;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition: .5s;
+  	background-color: #322f30;
+}
+
+.fa-facebook:hover {
+	background-color: #3d5b99;
+}
+
+.fa-linkedin {
+	padding:10px 11px 8px 11px;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition: .5s;
+  	background-color: #322f30;
+}
+
+.fa-linkedin:hover {
+	background-color: #0073a4;
 }
