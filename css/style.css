@@ -1,7 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Khula);
 
-@import url(http://fonts.googleapis.com/css?family=Lato);
-
 @import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 
 #logo{
@@ -122,6 +120,11 @@ ul {
 	list-style: none;
 }
 
+h4 {
+  color: #6CAC44;
+  margin: 0 auto;
+}
+
 .footer-social-icons {
 	width: 350px;
 	display:block;
@@ -172,4 +175,18 @@ ul.social-icons {
 
 .fa-linkedin:hover {
 	background-color: #0073a4;
+}
+
+.fa-pinterest {
+	padding:10px 11px 8px 11px;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition: .5s;
+  	background-color: #6CAC44;
+}
+
+.fa-pinterest:hover {
+	background-color: red;
 }
