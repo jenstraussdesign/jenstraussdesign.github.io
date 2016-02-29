@@ -134,7 +134,6 @@ ul {
 
 ul.social-icons {
 	margin-top: 10px;
-
 }
 
 .social-icons li {
@@ -154,7 +153,7 @@ ul.social-icons {
   	-moz-transition:.5s;
   	-webkit-transition:.5s;
   	transition: .5s;
-  	background-color: #322f30;
+  	background-color: #6CAC44;
 }
 
 .fa-facebook:hover {
@@ -168,7 +167,7 @@ ul.social-icons {
   	-moz-transition:.5s;
   	-webkit-transition:.5s;
   	transition: .5s;
-  	background-color: #322f30;
+  	background-color: #6CAC44;
 }
 
 .fa-linkedin:hover {
